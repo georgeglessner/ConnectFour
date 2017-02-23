@@ -57,9 +57,9 @@ public class ConnectFourGame {
 					+ "4-20 \nBoard set to 10.");
 			boardSize = 10;
 		}
-		if (boardSize < 3 || boardSize > 20) {
+		if (boardSize < 4 || boardSize > 20) {
 			JOptionPane.showMessageDialog(null, "Valid board sizes are "
-					+ "1-20\nBoard set to 10.");
+					+ "4-20\nBoard set to 10.");
 			boardSize = 10;
 		}
 
@@ -69,12 +69,12 @@ public class ConnectFourGame {
 			connectSize = Integer.parseInt(connect);
 		} catch (NumberFormatException e) {
 			JOptionPane.showMessageDialog(null, "Valid connection sizes"
-					+ " are 3-" + boardSize + "\nConnection set to 4.");
+					+ " are 2-" + boardSize + "\nConnection set to 4.");
 			connectSize = 4;
 		}
-		if (connectSize <= 3 || connectSize > boardSize) {
+		if (connectSize < 2 || connectSize > boardSize) {
 			JOptionPane.showMessageDialog(null, "Valid connection sizes"
-					+ " are 3-" + boardSize + "\nConnection set to 4.");
+					+ " are 2-" + boardSize + "\nConnection set to 4.");
 			connectSize = 4;
 		}
 
