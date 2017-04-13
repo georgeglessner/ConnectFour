@@ -1,9 +1,9 @@
-#Connect Four Project
+# Connect Four Project
 
 ![alt text](http://i.imgur.com/1x3rgT8.png)
 
 
-##Functionality
+## Functionality
 This game allows you to:
 * Choose number of players (max of 10)
 * Choose board size (x by x, min of 4)
