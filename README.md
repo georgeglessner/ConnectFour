@@ -11,7 +11,8 @@ This game allows you to:
 * Choose which player goes first
 
 __Bonus!__: Winning connections wrap around board horizontally.
-##Use
+
+## Usage
 Simply clone or download this repository and create a new project in your preferred Java IDE.
 
 Enjoy! 
